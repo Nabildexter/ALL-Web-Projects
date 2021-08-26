@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:900i" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="JonGame.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<title>Jon Lin's Game</title>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="row">	
+			<div class="col-lg-12">
+				<div id="content">
+					<h1>Welcome to Jon Lin's Card Game</h1>
+					<hr>
+
+					<button class="btn-default btn-lg STARTBUTTON"><i class="fas fa-gamepad"></i>	START GAME!</button>			
+
+						<div class="Scores">
+							<div class="ScoreDisplays">
+								<h3 class="PotScoring"><i class="fas fa-dice"></i></h3>
+							</div>
+							<div class="ScoreDisplays">
+								<h3 class="resultScore"><i class="fas fa-dice"></i></h3>
+							</div>
+							<div class="ScoreDisplays">
+								<h3 class="TurnScoring"><i class="fas fa-dice"></i></h3>
+							</div>
+						</div>
+
+					<div class="container board">
+						
+
+						<img src="Gray_	back.jpg" alt="..." class="img-thumbnail card1">
+						<img src="Gray_	back.jpg" alt="..." class="img-thumbnail card2">
+						<img src="Gray_	back.jpg" alt="..." class="img-thumbnail card3">
+					</div>
+
+					<button class="btn btn-default btn-lg DEALBUTTON"><i class="far fa-hand-paper"></i>	 Deal</button>
+					<input type="number" name="" placeholder="Enter Amount" class="BETINPUT">
+					<button class="btn btn-default btn-lg BETBUTTON"><i class="fas fa-plus"></i>   Bet</button>
+					<button class="btn btn-default btn-lg MATCHBUTTON"><i class="fas fa-equals"></i>  Match</button>
+					<button class="btn btn-default btn-lg RESETBUTTON"><i class="far fa-hand-peace"></i> 	Pass/Reset</button>
+
+				</div>	
+
+					<button class="btn btn-default btn-lg SKIPBUTTON"><i class="fas fa-forward"></i>	Skip Turn</button>
+
+				</div>
+			</div>	
+		</div>
+			<div class="container">
+
+				<h1>Player List </h1>
+
+				<input type="text" placeholder="Add a Player" id="NAMEINPUT" onfocus="this.value=''">
+				<input type="number"placeholder="Add a buy in" id="BUYINPUT" onfocus="this.value=''">
+				<button class="btn-default SUBMITBUTTON" type="submit">Submit</button>
+
+
+				<table class="table table-dark" id="listNames">
+				  <thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col"> Name</th>
+				      <th scope="col">$ Buy In</th>
+				      <th scope="col">$ Cash Out</th>
+				    </tr>
+				    <tr>
+				    	<td>1</td>
+						<td>Jon</td>
+						<td>10</td>
+						<td>9</td>
+				    </tr>
+				    <tr>
+				    	<td>2</td>
+						<td>Eric</td>
+						<td>10</td>
+						<td>9</td>
+				    </tr>
+				    <tr>
+				    	<td>3</td>
+						<td>Joe</td>
+						<td>10</td>
+						<td>9</td>
+				    </tr>
+				  </thead>
+				  <tbody>
+				  </tbody>	
+				</table>
+
+				<hr>
+
+				<h1 class="Directions">Directions, How to Play</h1>
+
+				<p>You choose a buy-in of chips/money. Everyone puts 1 chip/money into the pot in the beginning. Everyone will takes turns. 3 Cards are dealt on the board in a round. On your turn, you are dealt 2 cards first. You bet that the third card will be BETWEEN these two cards. When the third card is dealt and you are right, you win the amount you bet from the pot. Else, you forfeit the amount you bet if your third card was outside the range of the first two cards. Here are some caveats:</p>
+
+				<ul>
+					<li>If the first 2 cards dealt are the same rank, you lose atuomamtically. You also pay half the pot.</li>
+					<li>If the third card dealt is the same rank as any of the 2 cards first dealt, you lose and pay double your bet.</li>
+					<li>If you ran out of chips, you are kicked from the game.</li>
+					<li>You may buy back in or you can come back as a new player.</li>
+					<li>If the Pot is 0 after a turn, everyone autmatically puts 1 into the pot.</li>
+					<li>The Cards are Randnomized. You cannot count Cards. Pretend there are an infinite amount of decks shuffeled together.</li>																				
+				</ul>
+
+				<p class="copyright">© Nabil Z. Nazri, All rights reserved. Copyrighted 2021.<p>
+
+			</div>
+
+
+	<audio id="chipsAudio" src="chips.mp3" ></audio>
+	<audio id="booAudio" src="boo.mp3" ></audio>
+
+	<script type="text/javascript" src = "JonGame.js"></script>
+
+
+</body>
+</html>

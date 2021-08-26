@@ -1,0 +1,130 @@
+body {
+
+/*	background-image: url(Background.jpg);
+	background-size: cover;*/
+	font-family: Lato;
+	color: black;
+	text-align: center;
+	align-content: center;
+	zoom: .8;
+}
+
+h1 {
+	margin-top: 1%;
+}
+
+.img-thumbnail {
+	display: inline-block;
+    max-width: 20%;
+    height: 40;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	background: white;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+.trashicon{
+	margin-right: 10px;
+}
+
+.table .table-dark {
+	text-align: left;
+	}
+
+.table{
+	margin-top: 10px;
+	margin-bottom: 90px;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+.SUBMITBUTTON{
+	margin-bottom: 5px;
+}
+
+.board{
+	display: flex;
+}
+
+.Directions{
+	margin-top: 50px;
+}
+
+.Scores{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+
+.scoreGap{
+	margin-left:30px;
+	margin-right:30px;
+
+}
+
+.container {
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.MidDisplay{
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+
+.LeftDisplay{
+	margin-left: 10px;
+}
+
+
+
+.RightDisplay{
+	margin-right: 10px;
+}
+
+
+
+.Directions{
+	margin-bottom: 50px;
+}
+
+.RESETBUTTON{
+	margin-left: 50px;
+}
+
+.SKIPBUTTON{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20%;
+}
+
+.copyright{
+	margin-top: 100px;
+}
+
+.BUYBACKBUTTON {
+	background-color: white;
+}
+
+.cover{
+	max-width:100%;
+	max-height:100%;	
+}

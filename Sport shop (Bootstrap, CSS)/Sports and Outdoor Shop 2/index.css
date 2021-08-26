@@ -1,0 +1,140 @@
+
+body{
+		background: url(https://media.gettyimages.com/videos/bright-background-video-id1130416046?s=640x640);
+		background-size: cover;
+		text-align: center;
+		align-content: center;
+	}
+	
+.navbar-light .navbar-nav .nav-link:hover{
+ 	font-weight: 1000;
+ 	color: black;
+ 	opacity: 100%
+ 	padding-top:5px;
+ 	padding-bottom: 9px;
+ 	padding-right: 20px;
+ 	transition: 0.2s;
+
+}
+
+
+.selected{
+ 	background: lightgrey;
+}
+
+
+.nav-item{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
+/*#navbarNav{
+	position: relative;
+}*/
+
+.navbar-brand{
+	font-weight: 500;
+}
+
+.active{
+	font-weight: 500;
+}
+
+
+.bg-light{
+	opacity: .70; 
+	background-color: #f8f9fa !important;
+	transition: 0.2s;
+}
+
+
+.bg-light:hover{
+	opacity: .90; 
+	background-color: #f8f9fa !important;
+
+}
+
+.fixed-top{
+	position: absolute;
+}
+
+/*Name*/
+.navbar-light{
+	color: red;
+}
+
+.navbar-brand{
+	font-weight: 700;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+ 	color: black;
+ 	opacity: 100%
+}
+
+ul{
+	text-align: left;
+}
+
+.coverphoto{
+	width: 100%;
+	height: 550px;
+	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(https://cdn.strategyonline.ca/wp/wp-content/uploads/2018/12/CG_Holiday_FW18_ATL_Hero_Alyssa_12_0130.jpg?w=640);
+
+/*	object-fit: cover;
+	object-position: 0 -130px;
+	background-attachment: fixed;*/
+	background-size: cover;
+	background-position: 0 -180px;
+/*	background-position: center;
+*/	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-bottom: 2.5px solid black;
+	margin-bottom: 80px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, .3), 13px 13px 13px rgba(0, 0, 0, .3), 0px 0px 0px rgba(0, 0, 0, .3);
+}
+
+.coverphotoproduct{
+	width: 100%;
+	height: 550px;
+	background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url(https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2019/11/0/0/Canada-Goose-Reuters.jpg?ve=1&tl=1);
+
+/*	object-fit: cover;
+	object-position: 0 -130px;
+	background-attachment: fixed;*/
+	background-size: cover;
+	background-position: 0 -180px;
+/*	background-position: center;
+*/	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-bottom: 2.5px solid black;
+	margin-bottom: 80px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, .3), 13px 13px 13px rgba(0, 0, 0, .3), 0px 0px 0px rgba(0, 0, 0, .3);	
+}	
+
+hr{
+	width: 500px;
+	border-bottom: solid black 2px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+form{
+	margin-bottom: 100px;
+}
+
+
+.footer{
+	margin-top: 50px;
+}
+
+.img-thumbnail{
+	width: 200px;
+	height: 200px;
+}

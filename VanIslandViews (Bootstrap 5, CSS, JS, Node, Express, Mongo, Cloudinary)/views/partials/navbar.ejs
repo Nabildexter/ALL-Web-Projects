@@ -1,0 +1,51 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <i class="far fa-map"></i>
+        VanIslandViews
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="fas fa-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/campgrounds">
+              <i class="fas fa-campground"></i>
+              Campgrounds
+            </a>
+          </li>
+
+        <% if (!currentUser) { %>
+        </ul>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="/register">Register</a>
+        </div>
+
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="/login">Log In</a>
+        </div>
+
+        <% } else { %>
+          <li class="nav-item">
+            <a class="nav-link" href="/campgrounds/new">
+              <i class="fas fa-plus"></i>
+              New Campground
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="/logout">Log Out</a>
+        </div>
+
+        <% } %>
+
+      </div>
+    </div>
+  </nav>    

@@ -1,0 +1,62 @@
+<% layout("layouts/boilerplate") %>
+
+
+<div class="container justify-content-center align-items-center mt-3 mb-5">
+
+    <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+            <div class="card shadow" style="">
+                
+                <div class="card-body">
+
+                    <img class="card-img-top" src="https://koa.com/blog/images/solo-camping-tips.jpg?preset=blogPhoto" alt="">
+
+                    <h1 class="card-title">Log In</h1>
+
+                    <form action="/login" method="POST" class="validated-form" novalidate>
+
+                        <div class="mb-3">
+    
+                            <label for="form-label" for="username">Username</label>
+                            <input class="form-control" type="text" name="username" id="username" required>
+    
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+    
+    
+                        </div>
+    
+                        <div class="mb-3">
+    
+                            <label for="form-label" for="password">Password</label>
+                            <input class="form-control" type="password" name="password" id="password" required>
+    
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+    
+                        </div>
+    
+                        <button class="btn btn-success">Log In</button>
+
+    
+                    </form>
+
+                    <div class="" style="text-align: center;">
+                        <a href="/register" style="">Don't have an Account? Register/Sign Up Here!</a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

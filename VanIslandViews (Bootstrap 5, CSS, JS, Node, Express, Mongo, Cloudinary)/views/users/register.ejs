@@ -1,0 +1,79 @@
+<% layout("layouts/boilerplate") %>
+
+<div class="container justify-content-center align-items-center mt-3 mb-5">
+
+    <div class="row">
+
+        <div class="col-md-6 offset-md-3">
+
+            <div class="card shadow" style="">
+                
+                <div class="card-body">
+
+                    <img class="card-img-top" src="https://koa.com/blog/images/solo-camping-tips.jpg?preset=blogPhoto" alt="">
+
+                    <h1 class="card-title">Register an Account</h1>
+
+
+                    <form action="/register" method="POST" class="validated-form" novalidate>
+
+                        <div class="mb-3">
+                    
+                            <label for="form-label" for="username">Username</label>
+                            <input class="form-control" type="text" name="username" id="username" required>
+                            
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+                    
+                    
+                        </div>
+                    
+                        <div class="mb-3">
+                    
+                            <label for="form-label" for="email">Email</label>
+                            <input class="form-control" type="email" name="email" id="email" required>
+                            
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+                    
+                        </div>
+                        
+                        <div class="mb-3">
+                    
+                            <label for="form-label" for="password">Password</label>
+                            <input class="form-control" type="password" name="password" id="password" required>
+                            
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+                    
+                        </div>
+                    
+                        <button class="btn btn-success">Submit</button>
+                    
+                    </form>
+
+                    <div class="card-text" style="text-align: center;">
+                        <p>
+                            ...
+                        </p>
+                        <p>
+                            To register, one does not need to use theirs or any real email.
+                        </p>
+                        <p>
+                            The password can be whatever.
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

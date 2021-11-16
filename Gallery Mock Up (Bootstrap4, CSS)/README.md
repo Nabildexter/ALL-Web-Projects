@@ -1,0 +1,1 @@
+1) Click on the Gallery.html file to run

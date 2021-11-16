@@ -1,0 +1,1 @@
+1) Click on the Colorgame.html file to run

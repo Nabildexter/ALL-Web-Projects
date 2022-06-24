@@ -1,0 +1,575 @@
+
+
+/* Impoort font from google fonts ROBOTO 100 300 400 500 700 900 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+
+    
+}
+
+
+
+*:before,
+*:after {
+
+    box-sizing: border-box;
+
+}
+
+
+/* All Global Variables */
+:root {
+
+    /* Define Color Pallete Variables */
+
+    --primary: #2306fd;
+    --secondary: #1501A7;
+    --SecondaryHover: #12028d;   
+    --textColor: #5a5580;
+    --negative: #ffffff;
+    --lightGradient:#f5f4ff;
+    --darkGradient:#44009c;
+
+
+
+    /* Type Size */
+
+    --xl:77px;
+    --lg:48px;
+    --md:29px;
+    --sm:17px;
+
+
+
+    /* Type Weight */
+
+    --black: 900;
+    --bold: 700;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+    --thin:100;
+
+
+
+    /* Margins and Paddings */
+
+    --spaceXL: 96px;
+    --spaceLG: 72px;
+    --spaceMD: 48px;
+    --spaceSM: 24px;
+    --spaceXS: 12px;
+
+
+
+    /* Border Radius */
+
+    --roundLG: 80px;
+    --roundMD: 60px;
+    --roundSM: 40px;
+
+
+
+    /* Box Shadow */
+    --shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    --shadowHover: 0 0 20px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Wrapper */
+.wrapper{
+    
+
+    width: 1152px;
+    height: 1248px;
+
+    /* Grid systems */
+    display: grid;
+    grid: repeat(26, 1fr) / repeat(24, 1fr);
+    margin: var(--spaceMD) auto;
+
+
+}
+
+/* Balance Balance Balance Balance Balance Balance Balance Balance Balance Balance Balance Balance  Balance Balance Balance Balance*/
+.Balance{
+
+    /* Start from 1, span 9 rows and 13 cols */
+    grid-area: 1 / 1 / span 9 / span 13;
+
+    background: linear-gradient(45deg, var(--primary), var(--darkGradient));
+    padding: var(--spaceXL);
+    border-radius: var(--roundLG);
+    box-shadow: var(--shadow);
+}
+
+.Balance h1, .Balance h2 {
+
+    color: var(--negative);
+
+}
+
+
+.Balance header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spaceLG);
+
+
+}
+
+.date h1{
+    font-size: var(--lg);
+    font-weight: var(--light);
+}
+
+.date h2{
+    font-size: var(--md);
+    font-weight: var(--thin);
+}
+
+.percentage h1{
+    font-size: var(--lg);
+    display: flex;
+    align-items: center;
+}
+
+.percentage h1 svg{
+    margin-left: var(--spaceXS);
+    transform: scale(1.2);
+    transform-origin: center center;
+
+}
+
+.percentage h1 svg path{
+    fill: var(--negative);
+}
+
+.Balance footer h1{
+
+    font-weight: var(--black);
+
+}
+
+
+.Balance footer h1 span:first-child{
+
+    font-size: var(--lg);
+
+}
+.Balance footer h1 span:last-child{
+
+    font-size: var(--xl);
+
+}
+
+
+/* Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary Summary*/
+.Summary{
+
+    /* Start from 11 and 1, span 16 rows and 13 cols */
+    grid-area: 11 / 1 / span 16 / span 13;
+
+    background: linear-gradient(180deg, var(--negative), var(--lightGradient));
+    padding: var(--spaceXL);
+    border-radius: var(--roundLG);
+    box-shadow: var(--shadow);
+
+}
+
+.Summary h1{
+
+    color: var(--textColor);
+    font-weight: var(--light);
+
+}
+
+.Summary header h1{
+
+    font-size: var(--lg);
+
+}
+
+
+.AccountNumber, .TransactionsLimit {
+
+    background-color: var(--negative);
+    border-radius: var(--roundSM);
+    box-shadow: var(--shadow);
+    padding: var(--spaceLG);
+    margin-top: var(--spaceMD);
+
+} 
+
+.AccountNumber h1, .TransactionsLimit h1{
+
+    font-size: var(--md);
+
+} 
+
+.AccountNumber h1:last-child, .TransactionsLimit h1:last-child{
+
+    font-weight: var(--bold);
+    padding-top: var(--spaceXS);
+
+} 
+
+
+
+
+/* Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment Payment */
+.PaymentDue{
+
+    grid-area: 1 / 15 / span 5 / span 10;
+    background: linear-gradient(180deg, var(--negative), var(--lightGradient));
+    padding: var(--spaceLG);
+    border-radius: var(--roundMD);
+    box-shadow: var(--shadow);
+}
+
+.PaymentDue h1{
+
+    color: var(--secondary);
+    font-size: var(--md);
+
+}
+
+.PaymentDue h1:first-child{
+
+    font-weight: var(--light);
+    margin-bottom: var(--spaceXS);
+
+}
+
+
+/* Activities  Activities Activities Activities Activities Activities Activities Activities Activities Activities Activities Activities Activities*/
+.Activities{
+
+    grid-area: 7 / 15 / span 18 / span 10;
+    background: linear-gradient(180deg, var(--negative), var(--lightGradient));
+    border-radius: var(--roundLG);
+    box-shadow: var(--shadow);
+}
+
+
+.Activities h1{
+    color: var(--textColor);
+    font-weight: var(--light);
+    font-size: var(--lg);
+    padding: var(--spaceXL) var(--spaceXL) var(--spaceSM) var(--spaceXL);
+}
+
+.Activities main ul {
+    list-style: none;
+}
+
+
+
+.Activities main ul li{
+
+    padding: var(--spaceSM) var(--spaceXL);
+    color: var(--textColor);
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.Activities main ul li span:first-child{
+
+    font-size: var(--sm);
+    font-weight: var(--bold);
+}
+
+.Activities main ul li span:last-child{
+
+    font-size: var(--md);
+    font-weight: var(--light);
+}
+
+
+.Activities footer {
+
+    padding: var(--spaceSM) var(--spaceXL) var(--spaceSM) var(--spaceXL);
+}
+
+.Activities button {
+
+    width: 100%;
+    border: none;
+    outline: none;
+
+    padding: var(--roundSM);
+
+    border-radius: var(--roundSM);
+
+    font-size: var(--md);
+
+    background-color: var(--secondary);
+
+    color: var(--negative);
+
+}
+
+
+/* interact  interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact*/
+
+
+.wrapper * {
+
+    transition: all 0.2s ease-out;
+
+}
+
+.Balance:hover{
+
+    background: linear-gradient(90deg, var(--primary), var(--darkGradient));
+    transform: scale(1.01);
+
+}
+
+.PaymentDue:hover, .Activities:hover, .Summary:hover, .AccountNumber:hover, .TransactionsLimit:hover{
+
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: var(--shadowHover);
+}
+
+
+.Activities ul li:hover{
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.Activities button:hover{
+    background-color: var(--SecondaryHover);
+}
+
+/* animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation  animation */
+
+@keyframes fade {   
+    
+    to {
+        opacity: 1;
+    }
+
+}
+
+.Balance, .PaymentDue, .Activities, .Summary { 
+
+    animation-name: fade;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+.Balance{
+    animation-delay: 0.1s;
+}
+
+.PaymentDue{
+    animation-delay: 0.5s;
+}
+
+.Activities{
+    animation-delay: 0.3s;
+}
+
+
+.Summary{
+    animation-delay: 0.7s;
+}
+
+
+/* Responsive  Responsive Responsive Responsive Responsive Responsive Responsive Responsive Responsive Responsive Responsive Responsive Responsive*/
+
+/* Responsive 1170px */
+@media (max-width: 1170px) {
+
+    .wrapper{
+
+        width: 672px;
+        height: 1872PX;
+        
+        display: grid;
+
+        /* Smaller Grid width, greater Grid height */
+        grid: repeat(39, 1fr) / repeat(7, 1fr);
+        margin: var(--spaceMD) auto;
+        
+
+    }
+
+
+    /* Responsive grid and padding. Responsive grid and padding . Responsive grid and padding . Responsive grid and padding . Responsive grid and padding  */
+
+    .Balance, .PaymentDue, .Summary {
+
+        grid-column: 1 / span 7;
+
+        padding: var(--spaceMD);
+
+        border-radius: var(--roundSM);
+
+
+    }
+
+    .Balance{
+
+        grid-row: 1 / span 5;
+
+    }
+
+    .PaymentDue{
+
+        grid-row: 7 / span 4;
+
+    }
+
+    .Activities {
+
+        grid-column: 1 / span 7;
+        grid-row: 12 / span 16;
+
+        border-radius: var(--roundSM);
+
+    }
+
+    .Summary {
+
+        grid-row: 29 / span 11;
+
+    }
+
+    /* Responsive Typography. Responsive Typography. Responsive Typography. Responsive Typography. Responsive Typography. Responsive Typography. Responsive Typography.*/
+
+    /* Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive. Balance Responsive */
+    .Balance header {
+
+        margin-bottom: var(--spaceSM);
+    
+    
+    }
+    
+    .date h1{
+        font-size: var(--md);
+        font-weight: var(--regular);
+    }
+    
+    .date h2{
+        font-size: var(--sm);
+        font-weight: var(--light);
+    }
+    
+    .percentage h1{
+        font-size: var(--md);
+    }
+
+        
+    .Balance footer h1 span:first-child{
+
+        font-size: var(--md);
+
+    }
+    .Balance footer h1 span:last-child{
+
+        font-size: var(--lg);
+
+    }
+
+
+/* Summary Responsive. Summary Responsive. Summary Responsive. Summary Responsive. Summary Responsive. Summary Responsive. Summary Responsive. Summary Responsive. */
+
+
+    .Summary h1{
+
+        font-weight: var(--regular);
+
+    }
+
+    .Summary header h1{
+
+        font-size: var(--md);
+
+    }
+
+    
+    .AccountNumber, .TransactionsLimit {
+
+
+        padding: var(--spaceMD);
+    
+    } 
+    
+    .AccountNumber h1, .TransactionsLimit h1{
+    
+        font-size: var(--sm);
+        
+    } 
+
+
+    /* Activities Responsive.  Activities Responsive Activities Responsive Activities Responsive Activities Responsive Activities Responsive Activities Responsive */
+
+    .Activities h1{
+        font-weight: var(--regular);
+        font-size: var(--md);
+        padding: var(--spaceMD) var(--spaceMD) var(--spaceSM) var(--spaceMD);
+    }
+
+
+    .Activities main ul li{
+
+        padding: var(--spaceSM) var(--spaceMD);
+    
+    }
+    
+    
+    
+    .Activities main ul li span:last-child{
+    
+        font-size: var(--sm);
+        font-weight: var(--regular);
+    }
+    
+
+    .Activities footer {
+
+        padding: var(--spaceMD);    
+    }
+    
+    .Activities button {
+    
+        
+        border-radius: var(--spaceSM);
+    
+        font-size: var(--sm);
+    
+    }
+
+}
+
+/* Responsive 710px */
+
+@media (max-width: 710px) {
+
+    .wrapper{
+
+        width: 336px;
+    }
+
+}

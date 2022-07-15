@@ -1,0 +1,11 @@
+<header>
+
+    <h1  *ngIf="hasRouteProperty('/')">{{ title }}</h1>
+
+    <app-button *ngIf="hasRouteProperty('/')"
+    color="{{showAddTask ? 'darkgrey' : 'black'}}"
+    text="{{showAddTask ? '-' : '+'}}"
+    (btnClick)="toggleAddingTask()">
+    </app-button>
+
+</header>

@@ -1,6 +1,5 @@
 Summary:
-This is a full CRUD-capable full-stack (front and back) website with user encryption, sessions and cookies, full database intnegration, and cloud media storage. The website is a place where people can go to post, rate, and review Campgrounds on Vancouver Island.
-
+This is a full CRUD-capable full-stack (front and back) website with user encryption, sessions and cookies, full database integration, and cloud media storage. This website is a place where people can go to post, rate, and review Campgrounds on Vancouver Island.
 
 
 Tools used:

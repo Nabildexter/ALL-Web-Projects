@@ -13,16 +13,26 @@ To Run:
 3. Go to `http://localhost:4200/`
 4. API can be slow, so wait a bit to load results.
 
+------------------------------------------------Samples------------------------------------------------
+
+GTA V Details Page Results:
+
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample1.jpg?raw=true)
 
 
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample2.jpg?raw=true)
 
 
+Search Results:
+
+
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample3.jpg?raw=true)
 
 
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample4.jpg?raw=true)
+
+
+Lion King Details Page Results:
 
 
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample5.jpg?raw=true)

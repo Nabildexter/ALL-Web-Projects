@@ -16,19 +16,22 @@ To Run:
 ![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample1.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample2.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample3.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample4.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample5.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample6.jpg?raw=true)
 
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Banking%20Statement%20UIUX%20(Bootsrap%205,%20CSS)/banksample.jpg?raw=true)
+![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample7.jpg?raw=true)
+
+
+

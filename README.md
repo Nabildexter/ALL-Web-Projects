@@ -4,7 +4,7 @@ More or less All/Some of my Web-based Projects
 
 ------------------------------------------------
 
-The front end projects, most of the Bootstrap 3/4 projects, were done a longgg time ago and are simple. The newer Bootstrap 5, Figma, Balsamiq, Web projects are better.
+The front end projects, most of the Bootstrap 3/4 projects, were done a longgg time ago and are simple. The newer Bootstrap 5, Figma, Balsamiq, Angular, React Mongodb, Express, Node Web projects are better.
 
 
 ------------------------------------------------

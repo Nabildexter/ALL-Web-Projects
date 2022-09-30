@@ -1,0 +1,232 @@
+<!-- <div class="container">
+
+  <div class="upper-data">
+
+    <img src="..\assets\cold.jpg" alt="" *ngIf="14 < 15">
+    <img src="..\assets\hot.jpg" alt="" *ngIf="14 > 15">
+
+
+    <div class="weather-data">
+
+      <div class="location">
+        Victoria, BC
+      </div>
+
+      <div class="temperature">
+        {{ 14.40 | number: '1.0-0'}} °C
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="lower-data">
+
+    <div class="more-info">
+
+      More Info:
+
+    </div>
+
+    <div class="more-info-container">
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\min.png" alt="">
+          <span>min</span>
+        </div>
+
+        <div class="info-block-value">
+
+          10 °C;
+
+        </div>
+
+      </div>
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\max.png" alt="">
+          <span>max</span>
+        </div>
+
+        <div class="info-block-value">
+
+          20 °C;
+
+        </div>
+
+      </div>
+
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\humidity.png" alt="">
+          <span>Humidity</span>
+        </div>
+
+        <div class="info-block-value">
+
+          10 °C;
+
+        </div>
+
+      </div>
+
+
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\wind.png" alt="">
+          <span>Wind</span>
+        </div>
+
+        <div class="info-block-value">
+
+          3 km/hr;
+
+        </div>
+
+      </div>  
+
+    </div>
+
+  </div>
+
+
+</div> -->
+
+
+<!-- Build Ngformss -->
+<form #SearchLocation="ngForm" (ngSubmit)="search(SearchLocation.value.name)" class="SearchForm" action="" style="margin-bottom: 10px; border-radius: 20px;">
+  <input [(ngModel)]="locationName" name="name" ngModel type="text" placeholder="Enter a place e.g Vancouver BC..." style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; border: 0px; width: 80%; padding: 10px;">
+  <button type="submit" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px; border: 0px; width: 20%; background-color: #4c7cad; padding: 10px;">
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+
+
+<div class="container" *ngIf="weatherData">
+
+  
+  
+  <div class="upper-data">
+
+    <img src="..\assets\cold.jpg" alt="" *ngIf="weatherData.current.temp_c < 16">
+    <img src="..\assets\hot.jpg" alt="" *ngIf="weatherData.current.temp_c >= 16">
+
+
+
+    <div class="weather-data">
+      
+
+      <div class="location">
+        {{ weatherData.location.name }}
+      </div>
+      <div class="location">
+        {{ weatherData.location.region }}, {{ weatherData.location.country }}
+      </div>
+
+      <div class="temperature">
+        {{ weatherData.current.temp_c | number: '1.0-0'}} °C
+      </div>
+
+
+
+    </div>
+
+  </div>
+  
+  <div class="lower-data">
+
+    <div class="more-info">
+
+      Last Updated:
+
+      <div>
+        {{weatherData.current.last_updated}}
+      </div>
+
+    </div>
+
+    <div class="more-info-container">
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\min.png" alt="" *ngIf="weatherData.current.temp_c < 16">
+          <img src="..\assets\max.png" alt="" *ngIf="weatherData.current.temp_c > 16">          
+          <span>Temperature</span>
+        </div>
+
+        <div class="info-block-value">
+
+          {{weatherData.current.temp_c}} °C
+
+        </div>
+
+      </div>
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="{{weatherData.current.condition.icon}}" alt="">
+          <span>Weather</span>
+        </div>
+
+        <div class="info-block-value">
+
+          {{weatherData.current.condition.text}}
+
+        </div>
+
+      </div>
+
+
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\humidity.png" alt="">
+          <span>Humidity</span>
+        </div>
+
+        <div class="info-block-value">
+
+          {{weatherData.current.humidity}} %
+
+        </div>
+
+      </div>
+
+
+
+      <div class="info-block">
+
+        <div class="info-block-label">
+          <img src="..\assets\wind.png" alt="">
+          <span>Wind</span>
+        </div>
+
+        <div class="info-block-value">
+
+          {{weatherData.current.wind_kph}} kph
+
+        </div>
+
+      </div>  
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<router-outlet></router-outlet>

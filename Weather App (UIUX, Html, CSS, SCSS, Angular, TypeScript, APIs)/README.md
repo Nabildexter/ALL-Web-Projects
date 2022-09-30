@@ -48,8 +48,8 @@ To Run:
 
 "Victoria BC" Search Result:
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample1.jpg?raw=true)
+![This is result for victoria](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Weather%20App%20(UIUX%2C%20Html%2C%20CSS%2C%20SCSS%2C%20Angular%2C%20TypeScript%2C%20APIs)/sample1.jpg?raw=true)
 
 "Kuala Lumpur" Search Result:
 
-![This is the Banking Dashboard Sample](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/VideoGame%20API%20WebApp%20(HTML%2C%20Node%2C%20SCSS%2C%20Angular%2C%20Typescript)/sample1.jpg?raw=true)
+![This is result for kuala lumpur](https://github.com/Nabildexter/ALL-Web-Projects/blob/main/Weather%20App%20(UIUX%2C%20Html%2C%20CSS%2C%20SCSS%2C%20Angular%2C%20TypeScript%2C%20APIs)/sample2.jpg?raw=truee)
